@@ -20,6 +20,10 @@ void addNode()
 	cin >> newNode->name; //Assign valur to the data field of the new node
 
 	//Insert the new node in the list
+	if (START == NULL || newNode->noMhs <= = START->noMhs)
+	{ //step 2: insert the new node at the beginning
+
+	}
 }
 
 
