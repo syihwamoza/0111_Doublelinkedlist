@@ -64,9 +64,12 @@ void addNode()
         else
         {
             // if previous is still NULL, it means newNode is now the first node
-
+            START = newNode;
         }
     }
 }
 
+bool search(int rollNo, Node** previous, Node** current)
+{
 
+}
