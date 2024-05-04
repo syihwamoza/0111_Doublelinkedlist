@@ -112,4 +112,8 @@ void deleteNode()
     }
 
     //Node to be deleted is the first node
+    if (current == START)
+    {
+        START = START->next; //step 2: update the START pointer
+    }
 }
